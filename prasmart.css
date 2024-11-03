@@ -1,0 +1,71 @@
+
+body{
+    background-image: url(view2.jpg);
+}
+
+
+h1 {
+   
+    color: rgb(244, 255, 255);
+    text-align: center;
+    font-family: arial;
+    backdrop-filter:  blur 500px;
+    font-size: 50px;
+    
+}
+
+
+.nav{
+    text-decoration: none;
+}
+
+HTML{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    backdrop-filter: blur (500px);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+align-items: center;
+gap: 2rem;
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    transition: all;
+    transition-duration: 300ms;
+
+}
+
+li a{
+    font-family: "Segoe UI", sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav div img {
+    width: 70px;
+}
+
+ul li a:hover{
+    border-bottom: 2px solid;
+    color: aqua;
+
+  
+}
+
+p{
+    color: rgb(245, 246, 247);
+    font-size: 35px;
+    font-family: arial;
+}
